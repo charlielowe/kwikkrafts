@@ -1,0 +1,132 @@
+#navbar{
+    text-align: center;
+    margin-left: 18%;
+    
+}
+
+#navitem{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+#image{
+    background-image: url("decoration_butterfly_grass_crafts_80174_1920x1080.jpg");
+    padding: 100px;
+    padding-top: 10%;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    background-size: 100%;
+    font-size: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contuc{
+    margin-left: 30%;
+    font-size: 300%;
+}
+
+#image4{
+    background-image: url("unnamed.jpg");
+    padding: 100px;
+    padding-top: 10%;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    background-size: 100%;
+    font-size: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2{
+    background-image: url("3a215646a219bc897bb4cf3fb56c51ef.jpg");
+    padding: 100px;
+    padding-top: 10%;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    background-size: 100%;
+    font-size: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+#image3{
+    background-image: url("florews.jpg");
+    padding: 100px;
+    padding-top: 10%;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    background-size: 100%;
+    font-size: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#circle{
+   border-radius: 100%;
+   
+}
+
+.col-sm{
+    margin-left: 3%;
+  
+}
+
+#pics{
+    margin-right: 10px;
+}
+
+
+#pars{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 200%;
+}
