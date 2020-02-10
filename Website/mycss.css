@@ -1,6 +1,8 @@
 #navbar{
     text-align: center;
     margin-left: 18%;
+    overflow: hidden;
+   
     
 }
 
@@ -9,6 +11,16 @@
     margin-right: 50px;
     font-size: 30px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+ }
 
 #image{
     background-image: url("decoration_butterfly_grass_crafts_80174_1920x1080.jpg");
@@ -63,6 +75,8 @@
     background-size: cover;
 }
 .gallery {
+    z-index: -1;
+    position:relative;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -130,3 +144,6 @@
     margin-right: 10%;
     font-size: 200%;
 }
+
+
+
